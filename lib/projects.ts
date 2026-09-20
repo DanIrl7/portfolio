@@ -12,6 +12,17 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    slug: "nyxx",
+    name: "nyxx",
+    tagline: "Terminal navigation, made easy",
+    description:
+      "Nyxx is a TUI I built in Python because I was tired of retyping the same commands and having to list out a directory's contents every time just to see where I was going. It became my way of learning Python through an actual project — visual navigation, saved jumps, reusable command memos. Check out the GitHub repo and give it a try!",
+    stack: ["Python", "curses", "pytest"],
+    image: "/images/nyxx.png",
+    repoUrl: "https://github.com/Danirl7/nyxx",
+    accent: "#ec4899",
+  },
+  {
     slug: "doggdenn",
     name: "DoggDenn",
     tagline: "E-commerce, built for dog people",
@@ -34,17 +45,6 @@ export const projects: Project[] = [
     liveUrl: "https://pianovue.vercel.app/",
     repoUrl: "https://github.com/Danirl7/pianoVue",
     accent: "#3c1950",
-  },
-  {
-    slug: "nyxx",
-    name: "nyxx",
-    tagline: "Terminal navigation, made easy",
-    description:
-      "Nyxx is a TUI I built in Python because I was tired of retyping the same commands and having to list out a directory's contents every time just to see where I was going. It became my way of learning Python through an actual project — visual navigation, saved jumps, reusable command memos. Check out the GitHub repo and give it a try!",
-    stack: ["Python", "curses", "pytest"],
-    image: "/images/nyxx.png",
-    repoUrl: "https://github.com/Danirl7/nyxx",
-    accent: "#ec4899",
   },
 ];
 

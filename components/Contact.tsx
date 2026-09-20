@@ -7,7 +7,7 @@ export default function Contact() {
         Get in touch
       </span>
       <h2 className="mt-4 font-serif text-4xl sm:text-6xl md:text-7xl text-white max-w-3xl">
-        Let&apos;s build something worth scrolling for.
+        Let&apos;s build something meaningful.
       </h2>
       <a
         href={`mailto:${socials.email}`}
@@ -17,10 +17,20 @@ export default function Contact() {
       </a>
 
       <div className="mt-12 flex gap-8 text-sm text-white/50">
-        <a href={socials.github} target="_blank" rel="noreferrer" className="hover:text-white transition-colors">
+        <a
+          href={socials.github}
+          target="_blank"
+          rel="noreferrer"
+          className="hover:text-white transition-colors"
+        >
           GitHub
         </a>
-        <a href={socials.linkedin} target="_blank" rel="noreferrer" className="hover:text-white transition-colors">
+        <a
+          href={socials.linkedin}
+          target="_blank"
+          rel="noreferrer"
+          className="hover:text-white transition-colors"
+        >
           LinkedIn
         </a>
       </div>

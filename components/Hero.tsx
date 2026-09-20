@@ -52,7 +52,11 @@ export default function Hero() {
               }
             >
               <div className="relative w-full h-full rounded-lg overflow-hidden shadow-2xl ring-1 ring-white/10">
-                <ProjectVisual project={project} sizes="240px" compact />
+                <ProjectVisual
+                  project={project}
+                  sizes={`${pos.width}px`}
+                  compact
+                />
               </div>
             </div>
           </motion.div>
