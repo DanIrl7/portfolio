@@ -65,8 +65,8 @@ export default function Hero() {
 
       <div className="relative z-10 flex h-full w-full flex-col items-center justify-center px-6 text-center">
         <motion.h1
-          style={{ opacity }}
-          className="font-serif text-5xl sm:text-7xl md:text-8xl text-white tracking-tight"
+          style={{ opacity, color: "rgb(222, 100, 100)" }}
+          className="font-serif text-5xl sm:text-7xl md:text-8xl tracking-tight"
         >
           Daniel Masona
         </motion.h1>

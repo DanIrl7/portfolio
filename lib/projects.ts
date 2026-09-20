@@ -44,7 +44,7 @@ export const projects: Project[] = [
     image: "/images/pianovue.png",
     liveUrl: "https://pianovue.vercel.app/",
     repoUrl: "https://github.com/Danirl7/pianoVue",
-    accent: "#3c1950",
+    accent: "rgb(222, 100, 100)",
   },
 ];
 
