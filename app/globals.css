@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-body);
+  --font-mono: var(--font-geist-mono);
+  --font-serif: var(--font-serif);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body), Arial, Helvetica, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.font-serif {
+  font-family: var(--font-serif), Georgia, serif;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: rotate(var(--rot, 0deg)) translateY(0px);
+  }
+  50% {
+    transform: rotate(var(--rot, 0deg)) translateY(-18px);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
