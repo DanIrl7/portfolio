@@ -69,7 +69,7 @@ export default function ProjectSection({
       <section ref={ref} className="relative" style={{ height: "220vh" }}>
         <div
           ref={pinRef}
-          className="h-screen w-full overflow-hidden bg-[#0a0a0a]"
+          className="h-dvh w-full overflow-hidden bg-[#0a0a0a]"
         >
           <motion.div
             style={{
@@ -80,7 +80,11 @@ export default function ProjectSection({
             }}
             className="absolute inset-0 w-full h-full overflow-hidden"
           >
-            <ProjectVisual project={project} priority={index === 0} />
+            <ProjectVisual
+              project={project}
+              priority={index === 0}
+              letterboxOnMobile
+            />
           </motion.div>
         </div>
       </section>

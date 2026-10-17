@@ -9,11 +9,15 @@ export default function ProjectVisual({
   priority = false,
   sizes = "100vw",
   compact = false,
+  letterboxOnMobile = false,
 }: {
   project: Project;
   priority?: boolean;
   sizes?: string;
   compact?: boolean;
+  // Show the whole screenshot on narrow screens instead of cropping it to
+  // fill a portrait viewport; fills the frame again from the lg breakpoint up.
+  letterboxOnMobile?: boolean;
 }) {
   const [failed, setFailed] = useState(false);
 
@@ -40,7 +44,7 @@ export default function ProjectVisual({
       alt={project.name}
       fill
       sizes={sizes}
-      className="object-cover"
+      className={letterboxOnMobile ? "object-contain lg:object-cover" : "object-cover"}
       priority={priority}
       onError={() => setFailed(true)}
     />
