@@ -10,6 +10,15 @@ import ProjectVisual from "./ProjectVisual";
 const CARD_WIDTH = "clamp(200px, 28vw, 370px)";
 const CARD_HEIGHT = `calc(${CARD_WIDTH} * 0.675)`;
 
+// Phone "deck": each card's vertical offset and tilt, in the same order as
+// projects. nyxx sits at the bottom of the fan; its slot is hidden here
+// because NyxxMorph draws that card and grows it into the nyxx section.
+const DECK = [
+  { y: 50, rotate: 6, z: 3 },
+  { y: -50, rotate: -6, z: 1 },
+  { y: 0, rotate: 0, z: 2 },
+];
+
 const LAYOUT = [
   { top: "10%", left: "4%", rotate: -6, float: 0 },
   { top: "10%", left: "60%", rotate: 5, float: 1.4 },
@@ -88,25 +97,33 @@ export default function Hero() {
             Email
           </a>
         </motion.div>
-      </div>
 
-      {/* Phones don't have room for the floating cards beside the title, so
-          they get the same projects as a swipeable row near the bottom. */}
-      <motion.div
-        style={{ opacity }}
-        className="absolute inset-x-0 bottom-16 sm:hidden"
-      >
-        <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory scroll-px-6 px-6 pb-2 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
-          {projects.map((project) => (
+        {/* Phones don't have room for the floating cards beside the title, so
+            the three projects fan out under the text like a deck of cards. */}
+        <motion.div
+          style={{ opacity }}
+          className="relative mt-8 h-[200px] w-[200px] sm:hidden"
+        >
+          {projects.map((project, i) => (
             <div
               key={project.slug}
-              className="relative shrink-0 snap-center w-[62vw] max-w-[280px] aspect-[3/2] rounded-lg overflow-hidden ring-1 ring-white/10"
+              id={i === 0 ? "hero-deck-nyxx" : undefined}
+              className={`absolute left-1/2 top-1/2 w-[180px] aspect-[1.88] rounded-lg overflow-hidden shadow-xl ring-1 ring-white/10 ${i === 0 ? "invisible" : ""}`}
+              style={{
+                transform: `translate(-50%, -50%) translate(0px, ${DECK[i].y}px) rotate(${DECK[i].rotate}deg)`,
+                zIndex: DECK[i].z,
+              }}
             >
-              <ProjectVisual project={project} sizes="62vw" compact />
+              <ProjectVisual
+                project={project}
+                sizes="180px"
+                compact
+                letterboxOnMobile
+              />
             </div>
           ))}
-        </div>
-      </motion.div>
+        </motion.div>
+      </div>
 
       <motion.div
         style={{ opacity }}

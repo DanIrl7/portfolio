@@ -5,6 +5,7 @@ import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import type { Project } from "@/lib/projects";
+import { useSmoothScrollY } from "@/lib/useSmoothScrollY";
 import ProjectVisual from "./ProjectVisual";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -50,6 +51,18 @@ export default function ProjectSection({
   );
   const indexLabel = String(index + 1).padStart(2, "0");
 
+  // On phones, NyxxMorph shows the nyxx image until it fades out, so this
+  // pinned image stays hidden until then and the two hand off without overlap.
+  // sm+ keeps it visible (sm:!opacity-100 overrides the inline style).
+  const smoothY = useSmoothScrollY();
+  const revealOpacity = useTransform(smoothY, (y) => {
+    if (index !== 0) return 1;
+    if (typeof window === "undefined") return 0;
+    const fadeStart = window.innerHeight * 2.2;
+    const fadeEnd = window.innerHeight * 2.5;
+    return Math.min(1, Math.max(0, (y - fadeStart) / (fadeEnd - fadeStart)));
+  });
+
   // CSS `position: sticky` drifts out of sync under ScrollSmoother's
   // transformed content wrapper, so the pin is handled by ScrollTrigger
   // instead, which is smoother-aware.
@@ -77,8 +90,9 @@ export default function ProjectSection({
               rotate,
               borderRadius: radius,
               transformOrigin: origin,
+              opacity: revealOpacity,
             }}
-            className="absolute inset-0 w-full h-full overflow-hidden"
+            className="absolute inset-0 w-full h-full overflow-hidden sm:!opacity-100"
           >
             <ProjectVisual
               project={project}
