@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# DIP event records can contain pasted commands and text; keep them local.
+.dip/events/
