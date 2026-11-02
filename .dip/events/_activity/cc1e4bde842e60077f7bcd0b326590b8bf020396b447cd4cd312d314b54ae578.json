@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "eventId": "cc1e4bde842e60077f7bcd0b326590b8bf020396b447cd4cd312d314b54ae578",
+  "taskId": "_activity",
+  "type": "activity.batch",
+  "payload": {
+    "session": "filesystem",
+    "records": [
+      {
+        "at": "2026-10-30T10:53:05.154Z",
+        "kind": "files.changed",
+        "files": [
+          "born-here/includes/youtube.php",
+          "born-here/config.php"
+        ],
+        "agent": "filesystem",
+        "branch": "main",
+        "recordId": "1a370b43-a5b8-4fe8-b7d5-e044f239bd65"
+      }
+    ]
+  },
+  "actor": "recorder",
+  "createdAt": "2026-10-30T10:53:05.681Z",
+  "parents": [],
+  "branch": "main"
+}

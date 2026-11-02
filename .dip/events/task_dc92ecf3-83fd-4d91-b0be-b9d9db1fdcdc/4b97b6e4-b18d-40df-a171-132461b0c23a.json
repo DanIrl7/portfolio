@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "eventId": "4b97b6e4-b18d-40df-a171-132461b0c23a",
+  "taskId": "task_dc92ecf3-83fd-4d91-b0be-b9d9db1fdcdc",
+  "type": "task.create",
+  "payload": {
+    "title": "open the site so I can test it it works. which years does this work with?",
+    "description": "open the site so I can test it it works. which years does this work with?",
+    "kind": "discussion",
+    "requestState": "captured",
+    "status": "backlog",
+    "source": "prompt"
+  },
+  "actor": "claude:cfaed120-49e8-441b-8e86-239b7afcc3bc",
+  "createdAt": "2026-10-29T19:52:36.172Z",
+  "parents": [],
+  "branch": "main"
+}

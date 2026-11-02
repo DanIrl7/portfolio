@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "eventId": "0fd6839d20147f2a53a35f4277985563fc96549872e708b6024c9e0135ea9b1d",
+  "taskId": "_activity",
+  "type": "activity.batch",
+  "payload": {
+    "session": "filesystem",
+    "records": [
+      {
+        "at": "2026-10-30T19:38:31.695Z",
+        "kind": "files.changed",
+        "files": [
+          "born-here/assets/gate.js.tmp.5684.3f263b3e8ce6"
+        ],
+        "agent": "filesystem",
+        "branch": "main",
+        "recordId": "36587414-266d-434c-ac63-7d6969103d3b"
+      }
+    ]
+  },
+  "actor": "recorder",
+  "createdAt": "2026-10-30T19:38:32.161Z",
+  "parents": [],
+  "branch": "main"
+}

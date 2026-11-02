@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "eventId": "2ede3a7ca87f3b3f6c5f3b2c9566af8352b4474e2df2adb8c532c8c5e0bc81d0",
+  "taskId": "_activity",
+  "type": "activity.batch",
+  "payload": {
+    "session": "cfaed120-49e8-441b-8e86-239b7afcc3bc",
+    "records": [
+      {
+        "at": "2026-11-01T09:30:40.146Z",
+        "kind": "PreToolUse",
+        "agent": "claude",
+        "session": "cfaed120-49e8-441b-8e86-239b7afcc3bc",
+        "taskId": "task_4762f8dc-6e52-4836-9b48-766691e70ce4",
+        "tool": "Bash",
+        "branch": "main",
+        "command": "cd \"C:/Users/t430/3D Objects/coding/projects/jobs\" && cp Daniel_Masona_CV.docx Daniel_Masona_CV_before_firstlight_2026-11-01.docx && python - <<'PYEOF'\nimport zipfile, re, shutil, os\nfrom xml.sax.saxutils import escape\n\nsrc = 'Daniel_Masona_CV.docx'\nx = zipfile.ZipFile(src).read('word/document.xml').decode('utf8')\nparas = re.findall(r'<w:p[ >].*?</w:p>', x, flags=re.S)\n\ndef text(p):\n    return ''.join(re.findall(r'<w:t[^>]*>([^<]*)</w:t>', p))\n\ndef run(t, bold=False, italic=False, size=20):\n    flags = ('<w:b/><w:bCs/>' if bold else '') + ('<w:i/><w:iCs/>' if italic else '')\n    rpr = f'<w:rPr><w:rFonts w:ascii=\"Calibri\" w:cs=\"Calibri\" w:eastAsia=\"Calibri\" w:hAnsi=\"Calibri\"/>{flags}<w:sz w:val=\"{size}\"/><w:szCs w:val=\"{size}\"/></w:rPr>'\n    return f'<w:r>{rpr}<w:t xml:space=\"preserve\">{escape(t)}</w:t></w:r>'\n\ndip_title = next(p for p in paras if text(p).startswith('DIP (Development'))\ndip_link = next(p for p in paras if text(p).startswith('github.com/vxu-labs/dip'))\n\nborn_title = (\n    '<w:p><w:pPr><w:keepNext/><w:tabs><w:tab w:val=\"right\" w:pos=\"10368\"/></w:tabs><w:spacing w:after=\"0\" w:before=\"30\"/></w:pPr>'\n    + run('Born Here', bold=True) + run('  |  Full-Stack Developer') + run('\\t2026') + '</w:p>'\n)\nborn_tech = (\n    '<w:p><w:pPr><w:keepNext/><w:spacing w:after=\"5\"/></w:pPr>'\n    + run('PHP, JavaScript, Docker, MySQL (TLS), Wikidata, Open-Meteo, YouTube API', italic=True, size=19) + '</w:p>'\n)\nborn_link = (\n    '<w:p><w:pPr><w:keepNext/><w:spacing w:after=\"5\"/></w:pPr>'\n    + run('github.com/DanIrl7/first-light  |  born-here.onrender.com', size=18) + '</w:p>'\n)\nborn_bullets = [\n    'Built a scroll-driven site that turns a name, birthday and birthplace into a personal \"day you were born\" page.',\n    'Combined Wikipedia, Wikidata, weather and chart data, with cached API calls and tolerant parsing of messy source tables.',\n    'Added a muted-then-unmute music player and a country leader lookup with photos.',\n]\nborn_bullet_xml = ''.join(\n    '<w:p><w:pPr><w:pSty",
+        "recordId": "claude:cfaed120-49e8-441b-8e86-239b7afcc3bc:PreToolUse:toolu_013ZyXcNnan3QE9SNH8i1gEU"
+      }
+    ]
+  },
+  "actor": "recorder",
+  "createdAt": "2026-11-01T09:30:40.383Z",
+  "parents": [],
+  "branch": "main"
+}

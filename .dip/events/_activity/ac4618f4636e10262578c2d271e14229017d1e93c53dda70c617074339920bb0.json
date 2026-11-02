@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "eventId": "ac4618f4636e10262578c2d271e14229017d1e93c53dda70c617074339920bb0",
+  "taskId": "_activity",
+  "type": "activity.batch",
+  "payload": {
+    "session": "filesystem",
+    "records": [
+      {
+        "at": "2026-10-30T12:26:36.759Z",
+        "kind": "files.changed",
+        "files": [
+          "born-here/assets/music.css.tmp.1812.a824f2f71ebc",
+          "born-here/assets",
+          "born-here/assets/music.css"
+        ],
+        "agent": "filesystem",
+        "branch": "main",
+        "recordId": "5600ec37-bcde-4b75-aeaa-87aa98f4952b"
+      }
+    ]
+  },
+  "actor": "recorder",
+  "createdAt": "2026-10-30T12:26:37.252Z",
+  "parents": [],
+  "branch": "main"
+}

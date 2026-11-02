@@ -46,6 +46,18 @@ export const projects: Project[] = [
     repoUrl: "https://github.com/Danirl7/pianoVue",
     accent: "rgb(222, 100, 100)",
   },
+  {
+    slug: "firstlight",
+    name: "First Light",
+    tagline: "A page for the day you were born",
+    description:
+      "First Light turns your name, birthday and birthplace into a scroll-driven page about the day you arrived: the weather at noon, the top US chart song that week, events and people from that date, and a certificate you can print. It draws on Wikipedia, Wikidata and Open-Meteo, caches the results, and uses GSAP for the scroll effects. Try it with your own birthday!",
+    stack: ["PHP", "JavaScript", "GSAP", "MySQL", "Docker"],
+    image: "/images/firstlight.jpg",
+    liveUrl: "https://born-here.onrender.com/",
+    repoUrl: "https://github.com/DanIrl7/first-light",
+    accent: "#f59e0b",
+  },
 ];
 
 export const socials = {

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "eventId": "71279704-0346-4a53-9cb7-fd50a9b829ba",
+  "taskId": "task_66b02c85-8493-412c-ab9e-10efe1e178c0",
+  "type": "task.update",
+  "payload": {
+    "status": "implemented",
+    "kind": "work",
+    "requestState": "promoted",
+    "resolution": {
+      "outcome": "implemented",
+      "summary": "The nyxx and DoggDenn project images were blank in their sections. Next's image optimizer returned broken WebP for those images at full width, and the frame fell back to a colour. ProjectVisual now serves the original files (unoptimized). Checked at 1598 px: all four pinned project images load and show. TypeScript passes. Not committed or deployed.",
+      "replacedBy": []
+    }
+  },
+  "actor": "claude:cfaed120-49e8-441b-8e86-239b7afcc3bc",
+  "createdAt": "2026-11-02T11:36:44.213Z",
+  "parents": [
+    "b8e07971-f84c-408a-96dd-5c6f1184146a"
+  ],
+  "branch": "main"
+}

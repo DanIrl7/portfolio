@@ -17,12 +17,14 @@ const DECK = [
   { y: 50, rotate: 6, z: 3 },
   { y: -50, rotate: -6, z: 1 },
   { y: 0, rotate: 0, z: 2 },
+  { y: 30, rotate: -4, z: 0 },
 ];
 
 const LAYOUT = [
   { top: "10%", left: "4%", rotate: -6, float: 0 },
   { top: "10%", left: "60%", rotate: 5, float: 1.4 },
   { top: "64%", left: "6%", rotate: -3, float: 0.7 },
+  { top: "64%", left: "60%", rotate: 4, float: 2.1 },
 ];
 
 export default function Hero() {
@@ -118,7 +120,6 @@ export default function Hero() {
                 project={project}
                 sizes="180px"
                 compact
-                letterboxOnMobile
               />
             </div>
           ))}

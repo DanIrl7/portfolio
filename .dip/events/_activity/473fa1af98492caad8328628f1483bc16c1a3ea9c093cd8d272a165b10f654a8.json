@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "eventId": "473fa1af98492caad8328628f1483bc16c1a3ea9c093cd8d272a165b10f654a8",
+  "taskId": "_activity",
+  "type": "activity.batch",
+  "payload": {
+    "session": "filesystem",
+    "records": [
+      {
+        "at": "2026-10-30T11:05:05.303Z",
+        "kind": "files.changed",
+        "files": [
+          "born-here/loading.php.tmp.1812.7728aeae1476"
+        ],
+        "agent": "filesystem",
+        "branch": "main",
+        "recordId": "e792ae23-e226-496f-8f43-fce14b961406"
+      }
+    ]
+  },
+  "actor": "recorder",
+  "createdAt": "2026-10-30T11:05:05.821Z",
+  "parents": [],
+  "branch": "main"
+}

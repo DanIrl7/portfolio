@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "eventId": "4ec26caa04ce28b49b4736348ca315b8e72ea30747df61913db4b17b48e7fd38",
+  "taskId": "_activity",
+  "type": "activity.batch",
+  "payload": {
+    "session": "filesystem",
+    "records": [
+      {
+        "at": "2026-10-30T18:55:48.991Z",
+        "kind": "files.changed",
+        "files": [
+          "born-here/assets/sed2xEGoL",
+          "born-here/assets",
+          "born-here/assets/calendar.css",
+          "born-here/assets/sedw9Lv64",
+          "born-here/assets/day.css",
+          "born-here/assets/sedDKOnMX",
+          "born-here/assets/loading.css",
+          "born-here/assets/sedaR5do9",
+          "born-here/assets/music.css",
+          "born-here/assets/sedKie9rm",
+          "born-here/assets/places.css",
+          "born-here/assets/sedzQsvty",
+          "born-here/assets/style.css",
+          "born-here/assets/sedFnB58X"
+        ],
+        "agent": "filesystem",
+        "branch": "main",
+        "recordId": "27fa8a06-03e0-462b-a0e6-c49d3a3df628"
+      }
+    ]
+  },
+  "actor": "recorder",
+  "createdAt": "2026-10-30T18:55:49.308Z",
+  "parents": [],
+  "branch": "main"
+}

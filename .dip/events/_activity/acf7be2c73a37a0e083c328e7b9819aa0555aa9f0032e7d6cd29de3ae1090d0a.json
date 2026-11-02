@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "eventId": "acf7be2c73a37a0e083c328e7b9819aa0555aa9f0032e7d6cd29de3ae1090d0a",
+  "taskId": "_activity",
+  "type": "activity.batch",
+  "payload": {
+    "session": "cfaed120-49e8-441b-8e86-239b7afcc3bc:a4dfc922138d6711a",
+    "records": [
+      {
+        "at": "2026-10-29T22:27:57.369Z",
+        "kind": "SubagentStop",
+        "agent": "claude",
+        "session": "cfaed120-49e8-441b-8e86-239b7afcc3bc:a4dfc922138d6711a",
+        "taskId": null,
+        "tool": "",
+        "branch": "main",
+        "recordId": "f707a858-bff2-4294-a3ff-87c7eb75df7a"
+      }
+    ]
+  },
+  "actor": "recorder",
+  "createdAt": "2026-10-29T22:27:57.877Z",
+  "parents": [],
+  "branch": "main"
+}

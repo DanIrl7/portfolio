@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "eventId": "49b1c908fe3f336216a0f4da9f46faff81d5eb2279f49d28f70b35c30faf8b29",
+  "taskId": "_activity",
+  "type": "activity.batch",
+  "payload": {
+    "session": "filesystem",
+    "records": [
+      {
+        "at": "2026-10-30T12:14:30.496Z",
+        "kind": "files.changed",
+        "files": [
+          "born-here/assets/dev-motion.js.tmp.1812.658c037a4a71",
+          "born-here/assets",
+          "born-here/assets/dev-motion.js"
+        ],
+        "agent": "filesystem",
+        "branch": "main",
+        "recordId": "41d718f7-61b8-4af3-b5aa-e6d7e6a752e4"
+      }
+    ]
+  },
+  "actor": "recorder",
+  "createdAt": "2026-10-30T12:14:30.895Z",
+  "parents": [],
+  "branch": "main"
+}

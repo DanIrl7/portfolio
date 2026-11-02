@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "eventId": "9d1bf0e213a10c56356700609d82537bcd293c42ee8a2ad8ddd9b365ce229b53",
+  "taskId": "_activity",
+  "type": "activity.batch",
+  "payload": {
+    "session": "cfaed120-49e8-441b-8e86-239b7afcc3bc",
+    "records": [
+      {
+        "at": "2026-10-29T14:54:48.953Z",
+        "kind": "PostToolUse",
+        "agent": "claude",
+        "session": "cfaed120-49e8-441b-8e86-239b7afcc3bc",
+        "taskId": "task_54586487-ad89-46d4-b046-88eac0972119",
+        "tool": "Bash",
+        "branch": "main",
+        "command": "cat \"$TEMP/dip-install2.out\" 2>&1 | head -60; echo \"---\"; ls -la \"$HOME/.dip\" 2>&1 | head -5",
+        "recordId": "claude:cfaed120-49e8-441b-8e86-239b7afcc3bc:PostToolUse:toolu_0188W3NxtfQPwksFzrBdseyv"
+      }
+    ]
+  },
+  "actor": "recorder",
+  "createdAt": "2026-10-29T14:54:49.130Z",
+  "parents": [],
+  "branch": "main"
+}

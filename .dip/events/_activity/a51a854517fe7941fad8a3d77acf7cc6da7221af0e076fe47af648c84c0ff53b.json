@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "eventId": "a51a854517fe7941fad8a3d77acf7cc6da7221af0e076fe47af648c84c0ff53b",
+  "taskId": "_activity",
+  "type": "activity.batch",
+  "payload": {
+    "session": "filesystem",
+    "records": [
+      {
+        "at": "2026-10-29T22:47:37.752Z",
+        "kind": "files.changed",
+        "files": [
+          "born-here/.claude/launch.json"
+        ],
+        "agent": "filesystem",
+        "branch": "main",
+        "recordId": "869950a6-7e79-4700-81bf-35f25248ebec"
+      }
+    ]
+  },
+  "actor": "recorder",
+  "createdAt": "2026-10-29T22:47:38.440Z",
+  "parents": [],
+  "branch": "main"
+}

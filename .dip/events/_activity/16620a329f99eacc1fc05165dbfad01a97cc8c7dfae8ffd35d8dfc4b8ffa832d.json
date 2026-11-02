@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "eventId": "16620a329f99eacc1fc05165dbfad01a97cc8c7dfae8ffd35d8dfc4b8ffa832d",
+  "taskId": "_activity",
+  "type": "activity.batch",
+  "payload": {
+    "session": "cfaed120-49e8-441b-8e86-239b7afcc3bc",
+    "records": [
+      {
+        "at": "2026-11-02T11:10:23.173Z",
+        "kind": "PostToolUse",
+        "agent": "claude",
+        "session": "cfaed120-49e8-441b-8e86-239b7afcc3bc",
+        "taskId": "task_91588f73-912d-4609-a3c9-b316142f36ed",
+        "tool": "Bash",
+        "branch": "main",
+        "command": "for i in $(seq 1 20); do code=$(curl -s -o /dev/null -w \"%{http_code}\" --max-time 5 http://127.0.0.1:3000/ 2>/dev/null); if [ \"$code\" = \"200\" ]; then echo \"dev server ready (checks: $i)\"; break; fi; sleep 3; done; echo \"code=$code\"",
+        "recordId": "claude:cfaed120-49e8-441b-8e86-239b7afcc3bc:PostToolUse:toolu_01ScZrV6kyuGKgDV9hGAbcsv"
+      }
+    ]
+  },
+  "actor": "recorder",
+  "createdAt": "2026-11-02T11:10:23.396Z",
+  "parents": [],
+  "branch": "main"
+}

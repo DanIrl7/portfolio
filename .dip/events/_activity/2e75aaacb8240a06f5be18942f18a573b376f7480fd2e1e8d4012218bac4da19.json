@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "eventId": "2e75aaacb8240a06f5be18942f18a573b376f7480fd2e1e8d4012218bac4da19",
+  "taskId": "_activity",
+  "type": "activity.batch",
+  "payload": {
+    "session": "filesystem",
+    "records": [
+      {
+        "at": "2026-10-30T12:04:31.823Z",
+        "kind": "files.changed",
+        "files": [
+          "born-here/includes"
+        ],
+        "agent": "filesystem",
+        "branch": "main",
+        "recordId": "7e097e56-8ba9-4693-9d84-e5ea1eb59a7a"
+      }
+    ]
+  },
+  "actor": "recorder",
+  "createdAt": "2026-10-30T12:04:32.062Z",
+  "parents": [],
+  "branch": "main"
+}

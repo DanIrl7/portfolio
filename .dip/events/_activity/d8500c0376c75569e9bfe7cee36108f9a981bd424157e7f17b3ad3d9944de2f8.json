@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "eventId": "d8500c0376c75569e9bfe7cee36108f9a981bd424157e7f17b3ad3d9944de2f8",
+  "taskId": "_activity",
+  "type": "activity.batch",
+  "payload": {
+    "session": "cfaed120-49e8-441b-8e86-239b7afcc3bc",
+    "records": [
+      {
+        "at": "2026-11-01T14:40:45.134Z",
+        "kind": "PreToolUse",
+        "agent": "claude",
+        "session": "cfaed120-49e8-441b-8e86-239b7afcc3bc",
+        "taskId": "task_634db697-12c1-4261-a1e1-8dd66a194f12",
+        "tool": "Bash",
+        "branch": "main",
+        "command": "curl -s -o /dev/null -w \"3000 HTTP %{http_code}\\n\" --max-time 120 http://127.0.0.1:3000/ || echo \"3000 failed\"; curl -s --max-time 120 http://127.0.0.1:3000/ | grep -o \"First Light\" | head -2; echo \"--- stopping my extra dev server (port 3001)\"; taskkill //PID 9036 //F 2>&1 | head -2",
+        "recordId": "claude:cfaed120-49e8-441b-8e86-239b7afcc3bc:PreToolUse:toolu_016j6vB9T4Y5ouacWPj5TPu4"
+      }
+    ]
+  },
+  "actor": "recorder",
+  "createdAt": "2026-11-01T14:40:45.396Z",
+  "parents": [],
+  "branch": "main"
+}

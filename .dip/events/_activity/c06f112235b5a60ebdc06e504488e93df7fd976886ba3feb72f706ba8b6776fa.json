@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "eventId": "c06f112235b5a60ebdc06e504488e93df7fd976886ba3feb72f706ba8b6776fa",
+  "taskId": "_activity",
+  "type": "activity.batch",
+  "payload": {
+    "session": "filesystem",
+    "records": [
+      {
+        "at": "2026-10-30T19:58:40.072Z",
+        "kind": "files.changed",
+        "files": [
+          "born-here/AGENTS.md",
+          "born-here/CLAUDE.md",
+          "born-here/.agents/skills/dip/SKILL.md",
+          "born-here/.claude/skills/dip/SKILL.md",
+          "born-here/data",
+          "born-here/.gitignore",
+          "born-here/.agents",
+          "born-here/.agents/skills",
+          "born-here/.agents/skills/dip",
+          "born-here/.claude/skills/dip",
+          "born-here/.claude/skills"
+        ],
+        "agent": "filesystem",
+        "branch": "main",
+        "recordId": "41ab750b-5d96-46ed-9c0b-34d872cfa3fa"
+      }
+    ]
+  },
+  "actor": "recorder",
+  "createdAt": "2026-10-30T19:58:41.444Z",
+  "parents": [],
+  "branch": "main"
+}

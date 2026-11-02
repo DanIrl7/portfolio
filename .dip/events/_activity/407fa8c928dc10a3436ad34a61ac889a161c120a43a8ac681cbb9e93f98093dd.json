@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "eventId": "407fa8c928dc10a3436ad34a61ac889a161c120a43a8ac681cbb9e93f98093dd",
+  "taskId": "_activity",
+  "type": "activity.batch",
+  "payload": {
+    "session": "cfaed120-49e8-441b-8e86-239b7afcc3bc",
+    "records": [
+      {
+        "at": "2026-10-29T14:55:22.630Z",
+        "kind": "PreToolUse",
+        "agent": "claude",
+        "session": "cfaed120-49e8-441b-8e86-239b7afcc3bc",
+        "taskId": "task_54586487-ad89-46d4-b046-88eac0972119",
+        "tool": "PowerShell",
+        "branch": "main",
+        "command": "$p = Get-Process -Id 11460 -ErrorAction SilentlyContinue; if ($p) { $p.WaitForExit(90000) | Out-Null; if (-not $p.HasExited) { 'still running after 90s' } else { 'install process exited' } } else { 'install process already gone' }",
+        "recordId": "claude:cfaed120-49e8-441b-8e86-239b7afcc3bc:PreToolUse:toolu_012wUB6FEa4qQsKVWKWT8z76"
+      }
+    ]
+  },
+  "actor": "recorder",
+  "createdAt": "2026-10-29T14:55:22.908Z",
+  "parents": [],
+  "branch": "main"
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "eventId": "01bcffc49f01419c77f16bc4e7b2a5d384cad49e3a0bfd0b7d679a1750137c86",
+  "taskId": "_activity",
+  "type": "activity.batch",
+  "payload": {
+    "session": "filesystem",
+    "records": [
+      {
+        "at": "2026-10-29T20:15:49.953Z",
+        "kind": "files.changed",
+        "files": [
+          "born-here/data/videos.csv"
+        ],
+        "agent": "filesystem",
+        "branch": "main",
+        "recordId": "c3d08b9c-4d01-44f6-91e4-eb2e6f0eca76"
+      }
+    ]
+  },
+  "actor": "recorder",
+  "createdAt": "2026-10-29T20:15:50.256Z",
+  "parents": [],
+  "branch": "main"
+}

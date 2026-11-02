@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "eventId": "feb32b9a3079266830423524044621303098f9fc4fc2d32e116deb5eb4d1be1e",
+  "taskId": "_activity",
+  "type": "activity.batch",
+  "payload": {
+    "session": "filesystem",
+    "records": [
+      {
+        "at": "2026-10-29T18:08:04.540Z",
+        "kind": "files.changed",
+        "files": [
+          "born-here/AGENTS.md",
+          "born-here/CLAUDE.md",
+          "born-here/.agents/skills/dip/SKILL.md",
+          "born-here/.claude/skills/dip/SKILL.md"
+        ],
+        "agent": "filesystem",
+        "branch": "main",
+        "recordId": "81b29e98-c6fe-4060-8668-ab5292e84c5d"
+      }
+    ]
+  },
+  "actor": "recorder",
+  "createdAt": "2026-10-29T18:08:19.005Z",
+  "parents": [],
+  "branch": "main"
+}

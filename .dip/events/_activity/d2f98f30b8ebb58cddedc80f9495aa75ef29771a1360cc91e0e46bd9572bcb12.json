@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "eventId": "d2f98f30b8ebb58cddedc80f9495aa75ef29771a1360cc91e0e46bd9572bcb12",
+  "taskId": "_activity",
+  "type": "activity.batch",
+  "payload": {
+    "session": "cfaed120-49e8-441b-8e86-239b7afcc3bc",
+    "records": [
+      {
+        "at": "2026-11-02T11:37:08.157Z",
+        "kind": "PreToolUse",
+        "agent": "claude",
+        "session": "cfaed120-49e8-441b-8e86-239b7afcc3bc",
+        "taskId": "task_d416261c-9751-47c0-a142-3e73e33c6ff5",
+        "tool": "Bash",
+        "branch": "main",
+        "command": "cd \"C:/Users/t430/3D Objects/coding/projects/portfolio\" && git branch --show-current && git remote -v | head -1 && echo \"--- status:\" && git status --short && echo \"--- diff stat (tracked):\" && git diff --stat && echo \"--- secret scan of changed files:\" && (git diff | grep -c \"AIza\" || true)",
+        "recordId": "claude:cfaed120-49e8-441b-8e86-239b7afcc3bc:PreToolUse:toolu_01S8PJB9i5ZpnmbECDQ91chZ"
+      }
+    ]
+  },
+  "actor": "recorder",
+  "createdAt": "2026-11-02T11:37:08.665Z",
+  "parents": [],
+  "branch": "main"
+}

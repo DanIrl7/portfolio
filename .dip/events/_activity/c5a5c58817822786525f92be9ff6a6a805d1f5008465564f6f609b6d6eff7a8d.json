@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "eventId": "c5a5c58817822786525f92be9ff6a6a805d1f5008465564f6f609b6d6eff7a8d",
+  "taskId": "_activity",
+  "type": "activity.batch",
+  "payload": {
+    "session": "cfaed120-49e8-441b-8e86-239b7afcc3bc",
+    "records": [
+      {
+        "at": "2026-11-01T14:39:38.537Z",
+        "kind": "PostToolUse",
+        "agent": "claude",
+        "session": "cfaed120-49e8-441b-8e86-239b7afcc3bc",
+        "taskId": "task_634db697-12c1-4261-a1e1-8dd66a194f12",
+        "tool": "Bash",
+        "branch": "main",
+        "command": "echo \"--- log:\"; tail -40 \"$TEMP/next-dev.log\"; echo \"--- probe:\"; curl -s -o /dev/null -w \"HTTP %{http_code}\\n\" --max-time 120 http://localhost:3000/ || echo \"curl failed\"; echo \"--- listeners:\"; netstat -ano | grep LISTEN | grep \":3000 \" | head -3",
+        "recordId": "claude:cfaed120-49e8-441b-8e86-239b7afcc3bc:PostToolUse:toolu_01LhNzGynmogukSzQyHovgpz"
+      }
+    ]
+  },
+  "actor": "recorder",
+  "createdAt": "2026-11-01T14:39:38.835Z",
+  "parents": [],
+  "branch": "main"
+}

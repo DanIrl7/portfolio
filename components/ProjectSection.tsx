@@ -16,6 +16,7 @@ const ORIGINS = [
   { origin: "6% 12%", rotate: -6 },
   { origin: "94% 12%", rotate: 5 },
   { origin: "8% 88%", rotate: -3 },
+  { origin: "92% 88%", rotate: 4 },
 ];
 
 export default function ProjectSection({
@@ -97,7 +98,6 @@ export default function ProjectSection({
             <ProjectVisual
               project={project}
               priority={index === 0}
-              letterboxOnMobile
             />
           </motion.div>
         </div>

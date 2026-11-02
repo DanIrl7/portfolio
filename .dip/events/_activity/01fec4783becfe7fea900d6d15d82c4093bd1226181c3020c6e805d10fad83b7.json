@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "eventId": "01fec4783becfe7fea900d6d15d82c4093bd1226181c3020c6e805d10fad83b7",
+  "taskId": "_activity",
+  "type": "activity.batch",
+  "payload": {
+    "session": "cfaed120-49e8-441b-8e86-239b7afcc3bc",
+    "records": [
+      {
+        "at": "2026-10-29T20:14:57.540Z",
+        "kind": "PostToolUse",
+        "agent": "claude",
+        "session": "cfaed120-49e8-441b-8e86-239b7afcc3bc",
+        "taskId": "task_911e8a02-cb47-4469-8c0a-73b6410cb8b1",
+        "tool": "mcp__Claude_Browser__computer",
+        "branch": "main",
+        "recordId": "claude:cfaed120-49e8-441b-8e86-239b7afcc3bc:PostToolUse:toolu_01BDzrefcHyzTavzi9QdeWFs"
+      }
+    ]
+  },
+  "actor": "recorder",
+  "createdAt": "2026-10-29T20:14:57.883Z",
+  "parents": [],
+  "branch": "main"
+}

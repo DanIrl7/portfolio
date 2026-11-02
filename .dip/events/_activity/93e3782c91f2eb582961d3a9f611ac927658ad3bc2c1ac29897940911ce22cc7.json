@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "eventId": "93e3782c91f2eb582961d3a9f611ac927658ad3bc2c1ac29897940911ce22cc7",
+  "taskId": "_activity",
+  "type": "activity.batch",
+  "payload": {
+    "session": "filesystem",
+    "records": [
+      {
+        "at": "2026-10-30T11:06:08.867Z",
+        "kind": "files.changed",
+        "files": [
+          "born-here/assets/places.js.tmp.1812.4e74ce6f43ea",
+          "born-here/assets",
+          "born-here/assets/places.js"
+        ],
+        "agent": "filesystem",
+        "branch": "main",
+        "recordId": "2b200e2e-79a1-443e-aee2-6b7234cd22c5"
+      }
+    ]
+  },
+  "actor": "recorder",
+  "createdAt": "2026-10-30T11:06:09.969Z",
+  "parents": [],
+  "branch": "main"
+}

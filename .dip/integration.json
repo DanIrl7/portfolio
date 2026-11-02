@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "version": "0.3.13-automatic.2",
+  "files": {
+    ".agents/skills/dip/SKILL.md": "e78a56b29f4a23b08958ce870f04bdf68188575643dae3cffc1a4b81cd53e451",
+    ".claude/skills/dip/SKILL.md": "e78a56b29f4a23b08958ce870f04bdf68188575643dae3cffc1a4b81cd53e451",
+    ".dip/intent-guide.md": "5139c7806f3cf71bbd2d4e485aa4217d478cccedcb48da7429c825a338859b0f",
+    ".dip/tools/portable.mjs": "a6b0df962bc43ba2366bc080290ee4594dec0afdb607ef5e3e5157a254708ff4"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "eventId": "155d94af17e512e529f3fa3b9679118c21fce43779d1aacf5b94e7f0aa3384c2",
+  "taskId": "_activity",
+  "type": "activity.batch",
+  "payload": {
+    "session": "filesystem",
+    "records": [
+      {
+        "at": "2026-10-30T11:09:47.091Z",
+        "kind": "files.changed",
+        "files": [
+          "born-here/assets/music.js.tmp.1812.4fe617dfbfcb",
+          "born-here/assets",
+          "born-here/assets/music.js"
+        ],
+        "agent": "filesystem",
+        "branch": "main",
+        "recordId": "c974b299-1f61-4b5d-99be-b42c243d55fc"
+      }
+    ]
+  },
+  "actor": "recorder",
+  "createdAt": "2026-10-30T11:09:47.519Z",
+  "parents": [],
+  "branch": "main"
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "eventId": "8054bd99b22d2253ae2711e49485b3016a02484a072319c1223170e66fa16824",
+  "taskId": "_activity",
+  "type": "activity.batch",
+  "payload": {
+    "session": "cfaed120-49e8-441b-8e86-239b7afcc3bc",
+    "records": [
+      {
+        "at": "2026-11-01T14:40:35.880Z",
+        "kind": "PreToolUse",
+        "agent": "claude",
+        "session": "cfaed120-49e8-441b-8e86-239b7afcc3bc",
+        "taskId": "task_634db697-12c1-4261-a1e1-8dd66a194f12",
+        "tool": "Bash",
+        "branch": "main",
+        "command": "netstat -ano | grep -E \" (9036|9940|6928|9976|1736|8972)$\" | head -20; echo \"--- any LISTENING on 3000-3010:\"; netstat -ano | grep LISTENING | grep -E \":300[0-9] \" | head",
+        "recordId": "claude:cfaed120-49e8-441b-8e86-239b7afcc3bc:PreToolUse:toolu_01NdejGAJJRYU8GgGhDsKv1L"
+      }
+    ]
+  },
+  "actor": "recorder",
+  "createdAt": "2026-11-01T14:40:36.320Z",
+  "parents": [],
+  "branch": "main"
+}

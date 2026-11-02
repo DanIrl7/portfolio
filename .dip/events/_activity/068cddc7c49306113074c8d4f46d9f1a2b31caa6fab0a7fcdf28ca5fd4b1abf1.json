@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "eventId": "068cddc7c49306113074c8d4f46d9f1a2b31caa6fab0a7fcdf28ca5fd4b1abf1",
+  "taskId": "_activity",
+  "type": "activity.batch",
+  "payload": {
+    "session": "filesystem",
+    "records": [
+      {
+        "at": "2026-10-30T10:52:56.617Z",
+        "kind": "files.changed",
+        "files": [
+          "born-here/includes/geocode.php"
+        ],
+        "agent": "filesystem",
+        "branch": "main",
+        "recordId": "273cfbd7-bc07-4b9b-aaa9-43e75d1eb576"
+      }
+    ]
+  },
+  "actor": "recorder",
+  "createdAt": "2026-10-30T10:52:57.251Z",
+  "parents": [],
+  "branch": "main"
+}

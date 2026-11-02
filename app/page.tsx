@@ -6,7 +6,7 @@ import { projects } from "@/lib/projects";
 
 export default function Home() {
   return (
-    <main className="relative">
+    <main className="relative overflow-x-clip">
       <NyxxMorph />
       <Hero />
       {projects.map((project, i) => (

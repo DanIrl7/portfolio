@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "eventId": "d5df6926dba8b62d544a784aa7325f674e5f5bed58ec4f849c74149acbe8ead5",
+  "taskId": "_activity",
+  "type": "activity.batch",
+  "payload": {
+    "session": "filesystem",
+    "records": [
+      {
+        "at": "2026-10-30T18:34:22.521Z",
+        "kind": "files.changed",
+        "files": [
+          "born-here/assets/places.css"
+        ],
+        "agent": "filesystem",
+        "branch": "main",
+        "recordId": "1d12021b-ac97-4e42-887c-c483b76cfbd7"
+      }
+    ]
+  },
+  "actor": "recorder",
+  "createdAt": "2026-10-30T18:34:22.766Z",
+  "parents": [],
+  "branch": "main"
+}

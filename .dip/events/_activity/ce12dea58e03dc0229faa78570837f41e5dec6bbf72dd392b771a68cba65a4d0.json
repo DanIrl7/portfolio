@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "eventId": "ce12dea58e03dc0229faa78570837f41e5dec6bbf72dd392b771a68cba65a4d0",
+  "taskId": "_activity",
+  "type": "activity.batch",
+  "payload": {
+    "session": "cfaed120-49e8-441b-8e86-239b7afcc3bc",
+    "records": [
+      {
+        "at": "2026-10-29T20:15:00.626Z",
+        "kind": "PostToolUse",
+        "agent": "claude",
+        "session": "cfaed120-49e8-441b-8e86-239b7afcc3bc",
+        "taskId": "task_911e8a02-cb47-4469-8c0a-73b6410cb8b1",
+        "tool": "mcp__Claude_Browser__computer",
+        "branch": "main",
+        "recordId": "claude:cfaed120-49e8-441b-8e86-239b7afcc3bc:PostToolUse:toolu_013bVpiW9q2wUjGiqpmyaQS1"
+      },
+      {
+        "at": "2026-10-29T20:15:01.162Z",
+        "kind": "PreToolUse",
+        "agent": "claude",
+        "session": "cfaed120-49e8-441b-8e86-239b7afcc3bc",
+        "taskId": "task_911e8a02-cb47-4469-8c0a-73b6410cb8b1",
+        "tool": "mcp__Claude_Browser__computer",
+        "branch": "main",
+        "recordId": "claude:cfaed120-49e8-441b-8e86-239b7afcc3bc:PreToolUse:toolu_01HRS3XzjH9gQWh1GrQL78C9"
+      }
+    ]
+  },
+  "actor": "recorder",
+  "createdAt": "2026-10-29T20:15:01.673Z",
+  "parents": [],
+  "branch": "main"
+}

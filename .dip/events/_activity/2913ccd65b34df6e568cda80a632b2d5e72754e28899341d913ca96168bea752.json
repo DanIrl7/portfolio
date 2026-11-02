@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "eventId": "2913ccd65b34df6e568cda80a632b2d5e72754e28899341d913ca96168bea752",
+  "taskId": "_activity",
+  "type": "activity.batch",
+  "payload": {
+    "session": "filesystem",
+    "records": [
+      {
+        "at": "2026-10-30T18:43:46.171Z",
+        "kind": "files.changed",
+        "files": [
+          "born-here/README.md.tmp.5684.dfc61f709733",
+          "born-here",
+          "born-here/README.md"
+        ],
+        "agent": "filesystem",
+        "branch": "main",
+        "recordId": "96a52942-4611-49c7-8871-456f4491965e"
+      }
+    ]
+  },
+  "actor": "recorder",
+  "createdAt": "2026-10-30T18:43:46.594Z",
+  "parents": [],
+  "branch": "main"
+}

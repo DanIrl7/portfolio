@@ -53,7 +53,6 @@ function MorphCard({ start }: { start: Box }) {
       <ProjectVisual
         project={projects[0]}
         sizes="100vw"
-        letterboxOnMobile
         priority
       />
     </motion.div>

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "eventId": "c75bf8d0990e3b2393ede3cb58382cd569068e984d3464b823c4cb9c5ba7e589",
+  "taskId": "_activity",
+  "type": "activity.batch",
+  "payload": {
+    "session": "cfaed120-49e8-441b-8e86-239b7afcc3bc",
+    "records": [
+      {
+        "at": "2026-11-01T14:38:48.509Z",
+        "kind": "PreToolUse",
+        "agent": "claude",
+        "session": "cfaed120-49e8-441b-8e86-239b7afcc3bc",
+        "taskId": "task_634db697-12c1-4261-a1e1-8dd66a194f12",
+        "tool": "Bash",
+        "branch": "main",
+        "command": "cd \"C:/Users/t430/3D Objects/coding/projects/portfolio\" && (npm run dev > \"$TEMP/next-dev.log\" 2>&1 &) ; sleep 25; echo \"--- log:\"; tail -40 \"$TEMP/next-dev.log\"; echo \"--- probe:\"; curl -s -o /dev/null -w \"HTTP %{http_code}\\n\" --max-time 90 http://localhost:3000/ || echo \"curl failed\"",
+        "recordId": "claude:cfaed120-49e8-441b-8e86-239b7afcc3bc:PreToolUse:toolu_01QarZbY5V9xet2ofKmDzuzD"
+      }
+    ]
+  },
+  "actor": "recorder",
+  "createdAt": "2026-11-01T14:38:48.705Z",
+  "parents": [],
+  "branch": "main"
+}

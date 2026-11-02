@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "eventId": "c73f1bd3a3180a2b1cbe27dc21259f2834372bbb7c4b8c1341cfcb9cc6f51c02",
+  "taskId": "_activity",
+  "type": "activity.batch",
+  "payload": {
+    "session": "filesystem",
+    "records": [
+      {
+        "at": "2026-10-30T12:26:22.492Z",
+        "kind": "files.changed",
+        "files": [
+          "born-here/assets/cinema.js.tmp.1812.d00c4d0bbec9",
+          "born-here/assets",
+          "born-here/assets/cinema.js"
+        ],
+        "agent": "filesystem",
+        "branch": "main",
+        "recordId": "74cf40c7-1cf4-4b61-90ba-f5684375a82c"
+      }
+    ]
+  },
+  "actor": "recorder",
+  "createdAt": "2026-10-30T12:26:23.026Z",
+  "parents": [],
+  "branch": "main"
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "eventId": "a15c76bcd9af674787ef7a725c5bcff6c17aa7340360b98e1d20a2b477580cc3",
+  "taskId": "_activity",
+  "type": "activity.batch",
+  "payload": {
+    "session": "cfaed120-49e8-441b-8e86-239b7afcc3bc",
+    "records": [
+      {
+        "at": "2026-11-02T10:36:08.581Z",
+        "kind": "PreToolUse",
+        "agent": "claude",
+        "session": "cfaed120-49e8-441b-8e86-239b7afcc3bc",
+        "taskId": "task_e7656168-1554-4386-9676-1a01a71b3d31",
+        "tool": "Bash",
+        "branch": "main",
+        "command": "rm -f \"$TEMP/firstlight-shot/shot.js\" \"$TEMP/firstlight-shot/run.log\" && ls -la \"$TEMP/firstlight-shot/\"",
+        "recordId": "claude:cfaed120-49e8-441b-8e86-239b7afcc3bc:PreToolUse:toolu_011SWpn8sH61QA9fNo4Fk1fD"
+      }
+    ]
+  },
+  "actor": "recorder",
+  "createdAt": "2026-11-02T10:36:08.894Z",
+  "parents": [],
+  "branch": "main"
+}

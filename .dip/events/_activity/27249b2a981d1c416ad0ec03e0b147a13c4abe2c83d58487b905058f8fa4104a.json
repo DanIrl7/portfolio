@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "eventId": "27249b2a981d1c416ad0ec03e0b147a13c4abe2c83d58487b905058f8fa4104a",
+  "taskId": "_activity",
+  "type": "activity.batch",
+  "payload": {
+    "session": "filesystem",
+    "records": [
+      {
+        "at": "2026-10-29T22:47:53.530Z",
+        "kind": "files.changed",
+        "files": [
+          "born-here/.gitignore"
+        ],
+        "agent": "filesystem",
+        "branch": "main",
+        "recordId": "46813bba-0463-47cd-b7db-0d89b76b677f"
+      }
+    ]
+  },
+  "actor": "recorder",
+  "createdAt": "2026-10-29T22:47:54.062Z",
+  "parents": [],
+  "branch": "main"
+}

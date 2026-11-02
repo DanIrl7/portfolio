@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "eventId": "ccf2708a-706f-492f-acd8-cdf669aba7e4",
+  "taskId": "task_634db697-12c1-4261-a1e1-8dd66a194f12",
+  "type": "task.update",
+  "payload": {
+    "kind": "work",
+    "requestState": "promoted",
+    "status": "in_progress"
+  },
+  "actor": "claude:cfaed120-49e8-441b-8e86-239b7afcc3bc",
+  "createdAt": "2026-11-01T14:35:58.301Z",
+  "parents": [
+    "11284a48-fe55-4997-999c-8da31503b334"
+  ],
+  "branch": "main"
+}

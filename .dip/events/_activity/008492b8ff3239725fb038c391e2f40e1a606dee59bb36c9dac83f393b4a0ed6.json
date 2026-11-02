@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "eventId": "008492b8ff3239725fb038c391e2f40e1a606dee59bb36c9dac83f393b4a0ed6",
+  "taskId": "_activity",
+  "type": "activity.batch",
+  "payload": {
+    "session": "filesystem",
+    "records": [
+      {
+        "at": "2026-10-30T11:19:24.829Z",
+        "kind": "files.changed",
+        "files": [
+          "born-here/assets",
+          "born-here/assets/day.css",
+          "born-here/assets/day.css.tmp.1812.6566a852b576"
+        ],
+        "agent": "filesystem",
+        "branch": "main",
+        "recordId": "7502dcaa-1fdf-4185-88ed-9703b12d3856"
+      }
+    ]
+  },
+  "actor": "recorder",
+  "createdAt": "2026-10-30T11:19:25.219Z",
+  "parents": [],
+  "branch": "main"
+}

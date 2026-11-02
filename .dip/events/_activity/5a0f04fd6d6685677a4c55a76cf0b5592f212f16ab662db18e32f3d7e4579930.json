@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "eventId": "5a0f04fd6d6685677a4c55a76cf0b5592f212f16ab662db18e32f3d7e4579930",
+  "taskId": "_activity",
+  "type": "activity.batch",
+  "payload": {
+    "session": "filesystem",
+    "records": [
+      {
+        "at": "2026-10-30T12:05:42.782Z",
+        "kind": "files.changed",
+        "files": [
+          "born-here/loading.php",
+          "born-here/build.php",
+          "born-here/includes/day.php",
+          "born-here/assets/form.js",
+          "born-here/start.php",
+          "born-here/assets/loading.css",
+          "born-here/assets/loading.js"
+        ],
+        "agent": "filesystem",
+        "branch": "main",
+        "recordId": "27725db1-2fc2-4edd-9c51-a598078ef20e"
+      }
+    ]
+  },
+  "actor": "recorder",
+  "createdAt": "2026-10-30T12:05:42.992Z",
+  "parents": [],
+  "branch": "main"
+}

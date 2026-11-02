@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "eventId": "3d4e2d01d810b778288214466aa4894cb1c47ddc760882c6c27d15b9472dca35",
+  "taskId": "_activity",
+  "type": "activity.batch",
+  "payload": {
+    "session": "cfaed120-49e8-441b-8e86-239b7afcc3bc",
+    "records": [
+      {
+        "at": "2026-10-30T11:53:56.199Z",
+        "kind": "PreToolUse",
+        "agent": "claude",
+        "session": "cfaed120-49e8-441b-8e86-239b7afcc3bc",
+        "taskId": "task_f7038810-8cea-47c6-b979-83ee1ffcb985",
+        "tool": "Read",
+        "branch": "main",
+        "path": "C:\\Users\\t430\\3D Objects\\coding\\projects\\portfolio\\components\\SmoothScroll.tsx",
+        "recordId": "claude:cfaed120-49e8-441b-8e86-239b7afcc3bc:PreToolUse:toolu_01HC7bEBzrW9coVTcw1Stj1i"
+      }
+    ]
+  },
+  "actor": "recorder",
+  "createdAt": "2026-10-30T11:53:56.725Z",
+  "parents": [],
+  "branch": "main"
+}
