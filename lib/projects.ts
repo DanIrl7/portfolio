@@ -27,7 +27,7 @@ export const projects: Project[] = [
     name: "DoggDenn",
     tagline: "E-commerce, built for dog people",
     description:
-      "I built DoggDenn after a few months away from coding, mainly to get comfortable with React and core frontend fundamentals — fetching data, handling error states, and authorization. I love animals, so I themed it around dogs and turned it into a full e-commerce site with Next.js, Clerk, Stripe, and a Postgres/Prisma backend. It isn't live and has no real users or data, but it's my first real, full-scale application.",
+      "I built DoggDenn after a few months away from coding, mainly to get comfortable with React and core frontend fundamentals — fetching data, handling error states, and authorization. I love animals, so I themed it around dogs and turned it into a full e-commerce site with Next.js, Clerk, Stripe, and a Postgres/Prisma backend. It's deployed as a demo with no real users or orders, and it's my first real, full-scale application.",
     stack: ["Next.js", "TypeScript", "Prisma", "Stripe", "Clerk", "Tailwind"],
     image: "/images/doggdenn.webp",
     liveUrl: "https://doggdenn.vercel.app/",

@@ -26,8 +26,9 @@ memos.
 — A full e-commerce site built with Next.js, Clerk, Stripe, and a Postgres/Prisma
 backend. I put this together after a few months away from coding to get
 comfortable with React and the fundamentals again — fetching data, handling
-error states, authorization. I love animals, so I themed it around dogs. It
-isn't live with real users or data, but it's my first real, full-scale app.
+error states, authorization. I love animals, so I themed it around dogs. It's
+deployed as a demo with no real users or orders, and it's my first real,
+full-scale app.
 
 **[pianoVue](https://github.com/Danirl7/pianoVue)** ([live demo](https://pianovue.vercel.app/))
 — An online piano built to get familiar with Vue: 61 keys, a chord library, and
